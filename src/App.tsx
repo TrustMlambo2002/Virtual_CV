@@ -37,13 +37,13 @@ function App() {
   };
 
   const skills = [
-    { name: 'Object-Oriented Programming', level: 90, category: 'Programming' },
-    { name: 'Java', level: 85, category: 'Programming' },
-    { name: 'C#', level: 85, category: 'Programming' },
+    { name: 'Object-Oriented Programming', level: 50, category: 'Programming' },
+    { name: 'Java', level: 55, category: 'Programming' },
+    { name: 'C#', level: 50, category: 'Programming' },
     { name: 'C++', level: 75, category: 'Programming' },
     { name: 'Python', level: 80, category: 'Programming' },
-    { name: 'SQL & Database Development', level: 85, category: 'Database' },
-    { name: 'Project Management', level: 75, category: 'Management' },
+    { name: 'SQL & Database Development', level: 75, category: 'Database' },
+    { name: 'Project Management', level: 45, category: 'Management' },
     { name: 'Networking (Cisco)', level: 70, category: 'Networking' }
   ];
 
