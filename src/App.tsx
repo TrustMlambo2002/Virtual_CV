@@ -56,6 +56,13 @@ function App() {
       image: 'https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&w=400'
     },
     {
+      title: 'Electronic Voting System',
+      description: 'A collaborative group project developing a secure electronic voting system using JavaFX. Citizens can vote for ruling parties including ANC, DA, and EFF with real-time vote counting and results visualization.',
+      technologies: ['Java', 'JavaFX', 'FXML', 'CSS', 'MVC Architecture'],
+      githubUrl: '#',
+      image: 'https://images.pexels.com/photos/1550337/pexels-photo-1550337.jpeg?auto=compress&cs=tinysrgb&w=400'
+    },
+    {
       title: 'Network Topology Simulator',
       description: 'A Java-based network simulation tool that helps visualize network configurations and troubleshoot connectivity issues.',
       technologies: ['Java', 'JavaFX', 'Network Protocols'],
@@ -167,7 +174,7 @@ function App() {
               <div className="pt-4">
                 <h3 className="text-xl font-semibold text-blue-900 mb-4">Interests & Hobbies</h3>
                 <div className="flex flex-wrap gap-3">
-                  {['Podcast Listening', 'Reading', 'Gaming', 'Hardware Optimization', 'System Analysis'].map((hobby) => (
+                  {['Podcast Listening', 'Reading', 'Gaming', 'Hardware Optimization', 'System Analysis', 'Political Systems'].map((hobby) => (
                     <span
                       key={hobby}
                       className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium"
@@ -230,6 +237,14 @@ function App() {
                       <li className="flex items-center">
                         <div className="w-2 h-2 bg-teal-500 rounded-full mr-3"></div>
                         Software development methodologies
+                      </li>
+                      <li className="flex items-center">
+                        <div className="w-2 h-2 bg-teal-500 rounded-full mr-3"></div>
+                        GUI development with JavaFX
+                      </li>
+                      <li className="flex items-center">
+                        <div className="w-2 h-2 bg-teal-500 rounded-full mr-3"></div>
+                        Collaborative software development
                       </li>
                     </ul>
                   </div>
