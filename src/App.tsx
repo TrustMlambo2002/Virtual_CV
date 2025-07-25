@@ -59,7 +59,7 @@ function App() {
       title: 'Electronic Voting System',
       description: 'A collaborative group project developing a secure electronic voting system using JavaFX. Citizens can vote for ruling parties including ANC, DA, and EFF with real-time vote counting and results visualization.',
       technologies: ['Java', 'JavaFX', 'FXML', 'CSS', 'MVC Architecture'],
-      githubUrl: '#',
+      githubUrl: 'https://github.com/TrustMlambo2002/LibertyVirtual',
       image: 'https://images.pexels.com/photos/1550337/pexels-photo-1550337.jpeg?auto=compress&cs=tinysrgb&w=400'
     },
     {
